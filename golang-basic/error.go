@@ -18,7 +18,7 @@ func main() {
 	if err != nil {
 		fmt.Println(err.Error())
 	} else {
-		fmt.Println("the division of two number is ", result)
+		fmt.Println("the division of twoooooooooooo number is ", result)
 	}
 
 }

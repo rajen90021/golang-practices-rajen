@@ -60,7 +60,7 @@ func UpdateBook(c *gin.Context) {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()}) ////statusbadrequest  400 bad request
 		return
 	}
-
+	/////*********************************************************************
 	// Update the book in the books slice
 	books[index] = updatedBook
 
